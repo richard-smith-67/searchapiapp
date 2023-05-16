@@ -45,7 +45,7 @@ The application should now be running at `http://localhost:8080`
 
 ### Using the application
 
-This application is dependent upon an api located here: https://github.com/richard-smith-67/SearchApi
+This application is dependent upon the .NET Core API located here: https://github.com/richard-smith-67/SearchApi
 
 Please follow the instructions for setting up the api and then test it according to the following criteria:
 
