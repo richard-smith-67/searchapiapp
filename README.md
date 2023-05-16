@@ -4,7 +4,7 @@ Absolutely, here is a simple README.md that you can use:
 
 # Vue Full Text Search App
 
-This is a simple Vue.js application that uses a .NET Core API to perform a full text search.
+This is a simple Vue.js application that uses a .NET Core API to perform a full text search on name and email.
 
 ## Getting Started
 
