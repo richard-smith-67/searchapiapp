@@ -24,7 +24,7 @@ git clone https://github.com/richard-smith-67/searchapiapp.git
 Navigate to the project directory
 
 ```windows
-cd vue-searchapiapp
+cd searchapiapp
 ```
 
 Install dependencies
