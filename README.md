@@ -24,7 +24,7 @@ git clone https://github.com/richard-smith-67/searchapiapp.git
 Navigate to the project directory
 
 ```windows
-cd vue-full-text-search
+cd vue-searchapiapp
 ```
 
 Install dependencies
@@ -45,8 +45,8 @@ The application should now be running at `http://localhost:8080`
 
 ### Using the application
 
+This application is dependent upon an api located here:
+
+Please follow the instructions for setting up the api and then test it according to the following criteria:
+
 Enter a search term into the search bar and click the 'Search' button to display the search results. The search results will include any records where the search term matches the first name, last name, or email of the person.
-
----
-
-Please replace `https://github.com/yourusername/vue-full-text-search.git` with the actual URL of your repository.
