@@ -1,0 +1,41 @@
+.bg-alternate {
+  background-color: #42b883;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap value to increase or decrease the spacing between input box and button */
+}
+
+.input-box {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #42b883;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,13 +1,16 @@
 <template>
   <div>
-    <input
-      type="text"
-      v-model="searchTerm"
-      placeholder="Enter search term"
-      class="search-input"
-    />
-    <button @click="search" class="search-button">Search</button>
-    <p></p>
+    <div class="container">
+      <div class="input-container">
+        <input
+          type="text"
+          v-model="searchTerm"
+          placeholder="Enter search term"
+          class="input-box"
+        />
+        <button @click="search" class="submit-button">Search</button>
+      </div>
+    </div>
     <p v-if="invalidInput" style="color: red">Please enter a search term</p>
     <div v-if="results.length > 0">
       <div
@@ -27,7 +30,7 @@
 
 <script>
 import axios from "axios";
-import "./styles.css";
+import "./SearchComponentStyle.css";
 
 export default {
   data() {
