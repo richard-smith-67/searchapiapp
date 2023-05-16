@@ -1,24 +1,52 @@
-# searchapiapp
+Absolutely, here is a simple README.md that you can use:
 
-## Project setup
+---
+
+# Vue Full Text Search App
+
+This is a simple Vue.js application that uses a .NET Core API to perform a full text search.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Vue CLI](https://cli.vuejs.org/)
+
+### Installing
+
+Clone the repository
+
+```windows
+git clone https://github.com/yourusername/vue-full-text-search.git
 ```
+
+Navigate to the project directory
+
+```windows
+cd vue-full-text-search
+```
+
+Install dependencies
+
+```windows
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### Running the application
+
+Start the Vue.js application
+
+```windows
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The application should now be running at `http://localhost:8080`
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Using the application
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Enter a search term into the search bar and click the 'Search' button to display the search results. The search results will include any records where the search term matches the first name, last name, or email of the person.
+
+---
+
+Please replace `https://github.com/yourusername/vue-full-text-search.git` with the actual URL of your repository.
