@@ -18,7 +18,7 @@ This is a simple Vue.js application that uses a .NET Core API to perform a full 
 Clone the repository
 
 ```windows
-git clone https://github.com/yourusername/vue-full-text-search.git
+git clone https://github.com/richard-smith-67/searchapiapp.git
 ```
 
 Navigate to the project directory
