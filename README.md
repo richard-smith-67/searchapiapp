@@ -49,4 +49,4 @@ This application is dependent upon the .NET Core API located here: https://githu
 
 Please follow the instructions for setting up the api and then test it according to the following criteria:
 
-Enter a search term into the search bar and click the 'Search' button to display the search results. The search results will include any records where the search term matches the first name, last name, or email of the person.
+Enter a search term into the search box and click the 'Search' button to display the search results. The search results will include any records where the search term matches the first name, last name, or email of the person.
